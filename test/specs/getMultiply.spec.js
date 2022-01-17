@@ -1,7 +1,6 @@
 const { describe, it } = require('mocha');
 const { expect } = require('chai');
-const calculator = require('../app');
-const chai = require('chai');
+const calculator = require('../app/calculator.js');
 
 describe('getMultiply', () => {
 
