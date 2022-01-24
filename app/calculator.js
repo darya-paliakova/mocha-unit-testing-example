@@ -1,4 +1,6 @@
 class Calculator{
+    constructor(){}
+
     getAdd(firstNumber, secondNumber){
         if((typeof firstNumber) !== 'number' || (typeof secondNumber) !== 'number'){
             throw new Error(`[${firstNumber}] OR [${secondNumber}] are not numbers.`);
@@ -16,5 +18,5 @@ class Calculator{
     }
 };
 
-module.exports = { Calculator };
+module.exports = Calculator;
 
