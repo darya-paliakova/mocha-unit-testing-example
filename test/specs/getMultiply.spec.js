@@ -4,11 +4,7 @@ const { expect } = require('chai');
 const Calculator = require('../../app/calculator');
 
 describe('getMultiply', () => {
-    let calculator;
-
-    beforeEach(() => {
-        calculator = new Calculator();
-    });
+    const calculator = new Calculator();
 
     it('should return 6 when called with numbers 2 and 3', () => {
         expect(calculator.getMultiply(2, 3)).to.be.equal(6);
