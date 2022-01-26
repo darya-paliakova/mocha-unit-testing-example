@@ -11,7 +11,7 @@ class Calculator{
 
     getMultiply(firstNumber, secondNumber){
         if((typeof firstNumber) !== 'number' || (typeof secondNumber) !== 'number'){
-            throw new Error(`[${firstNumber}] OR [${secondNumber}] are not numbers.`);
+            throw new Error(`[${firstNumber}] OR [${secondNumber}] are not numbers.`);ё
         } else {
             return firstNumber * secondNumber;
         }
@@ -19,4 +19,3 @@ class Calculator{
 };
 
 module.exports = Calculator;
-
